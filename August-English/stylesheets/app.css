@@ -6153,7 +6153,7 @@ abbr {
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #ffffff;
 }
 /* line 328, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite {
