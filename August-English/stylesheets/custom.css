@@ -1,0 +1,94 @@
+i.medium {
+	font-size:40px;
+}
+
+a#chat_cta {
+	text-decoration: underline;
+	
+
+}
+i.large {
+	font-size:80px;
+}
+
+#banner {
+	padding-top:2em;
+	padding-bottom:2em;
+	background-color:purple;
+	color:white;
+}
+#banner h1 {
+	color:white;
+}
+#banner h4 {
+        color:white;
+}
+#logo {
+	padding-top:1em;
+}
+#logo strong {
+	color:purple;
+}
+#phone_cta, #chat_cta {
+	padding-top:2em;	
+}
+
+
+#bottom_book {
+	text-align: center;
+	padding: 100px 0px;
+	vertical-align:middle;
+	line-height:3em;
+	background-color: lightgray;
+}
+#book_icon {
+	padding-bottom:1.5em;	
+	padding-left:3em;
+}
+#book_button {
+	padding-top:4em;
+	padding-right:0em;
+}
+#book_form {
+	padding-right:1em;
+}
+#bottom_book i {
+
+	font-size:80px;	
+	
+}
+
+#bottom_book h2  {
+	margin-bottom:1em;
+	
+}
+#bottom_cta {
+	background-color: lightgray;
+}
+#bottom_cta i {
+
+	font-size: 40px;
+	line-height: 100px;
+	text-align:center;
+	vertical-align: middle;
+	padding-left:1em;
+
+}
+
+#bottom_book, #bottom_cta {
+	margin-top:4em;
+	margin-bottom:4em;
+	background-color: lightgray;
+}
+
+#logos {
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+#address {
+	padding:2em;
+	text-align:center;
+	color: #aaa;
+	background-color: white;
+}
