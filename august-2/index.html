@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>August English Chile</title>
+		<meta name="description" content="">
+		<meta name="author" content="gatoloko">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<script src="jquery/jquery-1.11.0.min.js"></script>
+		<script src="jquery/jquery-ui.js"></script>
+		<script src="jquery/jquery.cycle.lite.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Wire+One' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			    $('.slideshow').cycle({
+					fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+				});
+			});
+		</script>
+		<script>
+			
+	 			function array_color(){
+	            	 var theColors = new Array();
+	            	 theColors[0] = '#006699';
+	            	 theColors[1] = '#98d435';
+	            	 theColors[2] = '#eaf0f3'; 
+	                 return theColors[Math.floor((Math.random()*3))] ;
+	 
+	           }
+	           $(document).ready(function(){
+	            window.setInterval(function() {
+					
+					$('body').animate({
+                        'background': arrayColor()
+                    }, 900);
+					
+				}, 1000);
+				});
+				$(document).ready(function(){
+					window.setInterval(function() {
+		            	$('#head').animate({
+	                        backgroundColor : array_color()
+	                    }, 900);
+                    }, 2000);
+				});
+        </script>
+	</head>
+
+	<body>
+		
+		<div id="main">
+			<div id="top-logo">
+				<img src="img/logo.jpg" class="logo" />				
+			</div>
+			
+			<!--head -->
+			<div id="title">
+				This is the title
+			</div>
+			<div id="head">
+				<div class="slideshow">
+					<img src="/img/sl1.jpg" width="350" height="350" />
+					<img src="/img/sl2.jpg" width="350" height="350" />
+					<img src="/img/sl3.jpg" width="350" height="350" />
+				</div>
+			</div>
+			
+			<div id="freebie">
+				<div id="freebie-title">Get your freebie!</div>
+				<div align="center"> <button class="button">START NOW</button></div>
+			</div>
+			<!-- head -->
+			<div id="features">
+				<div class="fe">
+					<p class="p-fe">
+						<img src="img/icon-fe.jpg" class="icon-fe"/><h2>FEATURE</h2>
+						<p class="p-fe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+						Aenean commodo ligula eget dolor. Aenean massa. 
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>  
+					</p>
+					
+				</div>
+				<div class="fe">
+					<p class="p-fe">
+						<img src="img/icon-fe.jpg" class="icon-fe"/><h2>FEATURE</h2>
+						<p class="p-fe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+						Aenean commodo ligula eget dolor. Aenean massa. 
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>  
+					</p>
+					
+				</div>
+				<div class="fe">
+					<p class="p-fe">
+						<img src="img/icon-fe.jpg" class="icon-fe"/><h2>FEATURE</h2>
+						<p class="p-fe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+						Aenean commodo ligula eget dolor. Aenean massa. 
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>  
+					</p>
+					
+				</div>
+			</div>
+			
+			<div id="clients">
+				<div class="cl">
+					<div align="center">
+						<h2> CLIENT</h2>
+						<img src="img/icon-cl.jpg" />
+					</div>
+				</div>
+				<div class="cl">
+					<div align="center">
+						<h2> CLIENT</h2>
+						<img src="img/icon-cl.jpg" />
+					</div>
+				</div>
+				<div class="cl">
+					<div align="center">
+						<h2> CLIENT</h2>
+						<img src="img/icon-cl.jpg" />
+					</div>
+				</div>
+				<div class="cl">
+					<div align="center">
+						<h2> CLIENT</h2>
+						<img src="img/icon-cl.jpg" />
+					</div>
+				</div>
+				<div class="cl">
+					<div align="center">
+						<h2> CLIENT</h2>
+						<img src="img/icon-cl.jpg" />
+					</div>
+				</div>
+			</div>
+			<div id="press">
+				<div class="pr">
+					<div class="in-press">
+						
+					</div>
+				</div>
+				<div class="pr">
+					<div class="in-press">
+						
+					</div>
+				</div>
+				
+			</div>
+			<div id="cta">
+				<h2>This is the second call to action!</h2><br />
+				<div align="center"> <button class="button">START NOW</button></div>
+			</div>
+			<div id="foot">
+				
+			</div>
+		</div>
+	</body>
+</html>
