@@ -66,10 +66,11 @@ html, body {
 	top: -135px;
 	font-size: 15px;
 	color: blue;
+	font-family:'banda-regular-normal',"Helvetica Neue",Arial,Helvetica,sans-serif;
 	
 }
 .fe{
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Tahoma', 'Geneva', sans-serif;
 	margin: 0px;
 	padding: 0px;
 	width: 33%;
