@@ -65,7 +65,7 @@ html, body {
 	position: relative;
 	top: -135px;
 	font-size: 15px;
-	color: blue;
+	color: #2A469D;
 	font-family:'banda-regular-normal',"Helvetica Neue",Arial,Helvetica,sans-serif;
 	
 }
@@ -78,7 +78,7 @@ html, body {
 	float: left;
 	text-align:left;
 	border-bottom: 1px solid #98d435;
-	color: blue;
+	color: #2A469D;
 }
 .p-fe{
 	margin: 20px;
