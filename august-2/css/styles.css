@@ -65,7 +65,7 @@ html, body {
 	position: relative;
 	top: -135px;
 	font-size: 15px;
-	color: #2A469D;
+	color: #336799;
 	font-family:'banda-regular-normal',"Helvetica Neue",Arial,Helvetica,sans-serif;
 	
 }
@@ -78,15 +78,15 @@ html, body {
 	float: left;
 	text-align:left;
 	border-bottom: 1px solid #98d435;
-	color: #2A469D;
+	color: #336799;
 }
 .p-fe{
-	margin: 20px;
+	margin: 0px;
 	text-align: left;
 }
 .icon-fe{
 	float:left;
-	margin: 5px;
+	margin: 2px;
 }
 #clients{
 	width: 100%;
