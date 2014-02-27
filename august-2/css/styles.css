@@ -65,6 +65,7 @@ html, body {
 	position: relative;
 	top: -135px;
 	font-size: 15px;
+	color: blue;
 	
 }
 .fe{
@@ -76,6 +77,7 @@ html, body {
 	float: left;
 	text-align:left;
 	border-bottom: 1px solid #98d435;
+	color: blue;
 }
 .p-fe{
 	margin: 20px;
