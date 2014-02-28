@@ -22,7 +22,7 @@ html, body {
 #phone{
 	position: relative;
 	right: -800px;
-	top: -40px;
+	top: -60px;
 }
 .logo{
 	
@@ -35,7 +35,7 @@ html, body {
 	text-align: left;
 }
 #title{
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 40px;
 	width: 450px;
 	height: 180px;
@@ -103,7 +103,7 @@ html, body {
 	
 }
 .cl{
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 	margin: 0px;
 	padding: 0px;
 	width: 19.8%;
@@ -141,7 +141,7 @@ html, body {
 	top: -135px;
 	background: #2f6e8d;
 	border-top: solid 1px #98d435;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 35;
 	
 	
