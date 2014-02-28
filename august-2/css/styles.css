@@ -38,19 +38,7 @@ html, body {
 #title{
 	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 40px;
-	width: 550px;
-	height: 180px;
-	float: left;
-	position: absolute;
-	top: 90px;
-	right: 80px;
-	z-index: 2;
-	
-}
-#title2{
-	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-	font-size: 30px;
-	width: 550px;
+	width: 450px;
 	height: 180px;
 	float: left;
 	position: absolute;
