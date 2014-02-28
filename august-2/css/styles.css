@@ -172,8 +172,8 @@ html, body {
    vertical-align: middle;
    }
 .button:hover {
-   background: #2f3e8d;
-   color: #336799;
+   background: #336799;
+   color: #ccc;
    }
 .button:active {
    background: #6d99af;
