@@ -61,8 +61,11 @@ html, body {
 	
 }
 .arrow{
-	position :relative;
-	top:20px;
+	width: 120px;
+	height: 90px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 	border: 1px solid #000;
 }
 #freebie-title{
