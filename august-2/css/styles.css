@@ -22,7 +22,7 @@ html, body {
 #phone{
 	position: relative;
 	right: -800px;
-	top: -50px;
+	top: -70px;
 }
 .logo{
 	
@@ -62,6 +62,7 @@ html, body {
 }
 #freebie-title{
 	line-height: 50px;
+	font-family:; "Helvetica Neue",Arial,Helvetica,sans-serif;
 	
 }
 #features{
