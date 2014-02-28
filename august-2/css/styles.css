@@ -67,7 +67,7 @@ html, body {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	border: 1px solid #000;
+	background:url(/img/arrow.png);
 }
 #freebie-title{
 	line-height: 50px;
