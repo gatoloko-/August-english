@@ -55,14 +55,14 @@ html, body {
 	top: -130px;
 	left: 490px;
 	z-index: 1;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: "Helvetica Neue",Arial,sans-serif;
 	-webkit-box-shadow: 2px 2px 8px 1px #6E6E6E;
 	box-shadow: 2px 2px 8px 1px #6E6E6E;
 	
 }
 #freebie-title{
 	line-height: 50px;
-	font-family:; "Helvetica Neue",Arial,Helvetica,sans-serif;
+	font-family:; "Helvetica Neue",Arial,sans-serif;
 	
 }
 #features{
