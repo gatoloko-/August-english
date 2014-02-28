@@ -47,6 +47,18 @@ html, body {
 	z-index: 2;
 	
 }
+#title2{
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+	font-size: 30px;
+	width: 450px;
+	height: 180px;
+	float: left;
+	position: absolute;
+	top: 90px;
+	right: 80px;
+	z-index: 2;
+	
+}
 #freebie{
 	width: 450px;
 	height: 140px;
