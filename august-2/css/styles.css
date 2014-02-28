@@ -21,6 +21,7 @@ html, body {
 }
 #phone{
 	position: relative;
+	float: right;
 	top: -35px;
 }
 .logo{
