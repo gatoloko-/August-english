@@ -141,7 +141,8 @@ html, body {
 	border-top: solid 1px #98d435;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-size: 35;
-	padding-bottom:0px;
+	
+	
 	
 }
 #foot{
@@ -150,7 +151,7 @@ html, body {
 	position: relative;
 	padding-top: 0px;
 	background: #98d435;
-	top:-115px;
+	position: fixed; bottom: 0;
 	
 }
 /*Slide css*/
@@ -172,7 +173,7 @@ html, body {
    }
 .button:hover {
    background: #2f3e8d;
-   color: #ccc;
+   color: #336799;
    }
 .button:active {
    background: #6d99af;
