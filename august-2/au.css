@@ -104,6 +104,44 @@ a, a:visited{
 	float:left;
 	margin: 5px;
 }
+#press{
+	width: 100%;
+	height: 200px;
+	top: -85px;
+	border-bottom: 1px solid #ccc;
+}
+.pr{
+	margin: 0px;
+	padding: 0px;
+	width: 49.8%;
+	height: 100%;
+	float:left;
+	background: url(/img/bck-pr.png);	
+	text-align:left;
+}
+.in-press{
+	margin: 15px;
+	width: 468px;
+	height: 100px;
+	/*background: #eaf0f3;*/
+}
+
+#clients{
+	width: 100%;
+	height: 200px;
+	top: -95px;
+	
+}
+.cl{
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 19.8%;
+	height: 100%;
+	float:left;
+	text-align:left;
+	border-bottom: 1px solid #98d435;
+}
 #foot{
 	width: 1024px;
 	height: 250px;
