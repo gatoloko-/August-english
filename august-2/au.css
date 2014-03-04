@@ -104,20 +104,14 @@ a, a:visited{
 	float:left;
 	margin: 5px;
 }
-#press{
+#testimonial{
 	width: 100%;
 	height: 200px;
 	top: -85px;
 	border-bottom: 1px solid #ccc;
 }
-.pr{
-	margin: 0px;
-	padding: 0px;
-	width: 49.8%;
-	height: 100%;
-	float:left;
-	background: url(/img/bck-pr.png);	
-	text-align:left;
+blockquote{
+	
 }
 .in-press{
 	margin: 15px;
