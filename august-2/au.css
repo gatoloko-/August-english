@@ -129,9 +129,10 @@ a, a:visited{
 	solid #ccc;
 }
 blockquote {
-  margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 0px solid #dddddd;
+	width: 341px;
+	float: left;
+	border-left: 0px 
+	solid #dddddd;
 }
 blockquote cite {
   display: block;
