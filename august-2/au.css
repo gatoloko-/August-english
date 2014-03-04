@@ -38,7 +38,7 @@ a, a:visited{
 	float: left;
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 	color: #FFF;
-	font-size: 25px;
+	font-size: 20px;
 }
 .menu-item1{
 	border-right:1px solid #006699;
@@ -48,7 +48,7 @@ a, a:visited{
 	float: left;
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 	color: #98D435;
-	font-size: 25px;
+	font-size: 10px;
 }
 .menu-item:hover{
 	background: #006699;
