@@ -188,9 +188,9 @@ blockquote cite {
    vertical-align: middle;
    }
 .button:hover {
-   background: #2f3e8d;
+   background: #6d99af;
    color: #ccc;
    }
 .button:active {
-   background: #6d99af;
+   background: ##98D435;
    }
