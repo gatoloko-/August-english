@@ -133,11 +133,13 @@ blockquote {
 	float: left;
 	border-left: 0px 
 	solid #dddddd;
+	font-family: 'Tahoma', 'Geneva', sans-serif;
 }
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
   color: #555555;
+  font-family: 'Tahoma', 'Geneva', sans-serif;
 }
  .large-4 {
     width:1024px;
@@ -178,7 +180,7 @@ blockquote cite {
 .button {
 	border: 0px;
 	border-radius: 3px;
-   background: #2f8d7d;
+   background: #98D435;
    padding: 10px 35px 10px 35px;
    color: black;
    font-size: 16px;
@@ -188,8 +190,8 @@ blockquote cite {
    vertical-align: middle;
    }
 .button:hover {
-   background: #2f3e8d;
-   color: #ccc;
+   background: ##006699;
+   color: #FFF;
    }
 .button:active {
    background: #6d99af;
