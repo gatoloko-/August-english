@@ -135,9 +135,10 @@ blockquote {
 	solid #dddddd;
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 }
-blockquote cite {
+right{
   display: block;
   font-size: 0.8125rem;
+  float:right;
   color: #555555;
   font-family: 'Tahoma', 'Geneva', sans-serif;
 }
