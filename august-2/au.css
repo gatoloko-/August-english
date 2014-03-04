@@ -89,6 +89,7 @@ a, a:visited{
 	line-height: 50px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-align: center;
+	font-size:20px;
 	
 }
 #clients{
@@ -136,7 +137,6 @@ blockquote {
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 }
 right{
-  display: block;
   font-size: 0.8125rem;
   float:right;
   color: #555555;
