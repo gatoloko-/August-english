@@ -1,4 +1,4 @@
-html, body {
+html, body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -11,12 +11,13 @@ a, a:visited{
 #navigation{
 	width:100%;
 	height: 60px;
-	background: #006699;
+	background: url(img/bck-menu.png);
 }
 #menu{
 	width:1024px;
 	height: 60px;
-	background: #515151;
+	background: url(img/bck-menu.png);
+	background-color:#006699;
 	
 	margin-left: auto;
 	margin-right: auto;
@@ -25,9 +26,12 @@ a, a:visited{
 	float:left;
 	margin: 0px;
 	height: 60px;
+	border-right:1px solid #006699;
+	padding-right: 30px;
 	
 }
 .menu-item{
+	border-right:1px solid #006699;
 	line-height: 60px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -37,9 +41,10 @@ a, a:visited{
 	font-size: 25px;
 }
 .menu-item:hover{
-	background: #FFF;
-	color: #006699;
+	background: #006699;
+	color: #FFF∂;
 }
+
 #head{
 	width:100%;
 	height: 506px;
@@ -49,6 +54,25 @@ a, a:visited{
 	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
+}
+#cta{
+	width: 450px;
+	height: 140px;
+	background: #eaf0f3;
+	border-radius: 5px;
+	position: relative;
+	top: 50px;
+	left: 500px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	-webkit-box-shadow: 2px 2px 8px 1px #000;
+	box-shadow: 2px 2px 8px 1px #000;
+	z-index: 2;
+}
+#freebie-title{
+	line-height: 50px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	
 }
 #clients{
 	width:100%;
@@ -87,3 +111,23 @@ a, a:visited{
 	margin-left: auto;
 	margin-right: auto;
 }
+/*button*/
+.button {
+	border: 0px;
+	border-radius: 3px;
+   background: #2f8d7d;
+   padding: 10px 35px 10px 35px;
+   color: black;
+   font-size: 16px;
+   font-family: 'Alegreya Sans SC', sans-serif;
+   font-size: 25px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   background: #2f3e8d;
+   color: #ccc;
+   }
+.button:active {
+   background: #6d99af;
+   }
