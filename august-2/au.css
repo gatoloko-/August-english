@@ -180,7 +180,7 @@ blockquote cite {
 .button {
 	border: 0px;
 	border-radius: 3px;
-   background: #98D435;
+   background: #35d471;
    padding: 10px 35px 10px 35px;
    color: black;
    font-size: 16px;
@@ -190,7 +190,7 @@ blockquote cite {
    vertical-align: middle;
    }
 .button:hover {
-   background: ##006699;
+   background: #006699;
    color: #FFF;
    }
 .button:active {
