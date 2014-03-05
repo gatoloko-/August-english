@@ -205,8 +205,8 @@ right{
 	border-bottom: 1px solid #98d435;
 }
 #foot{
-	width: 1024px;
-	height: 250px;
+	width: 100%;
+	height: 200px;
 	background:#98D435;
 	margin-left: auto;
 	margin-right: auto;
