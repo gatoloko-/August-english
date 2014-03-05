@@ -210,7 +210,6 @@ right{
 	background:#98D435;
 	margin-left: auto;
 	margin-right: auto;
-	position: fixed; bottom: 0;
 }
 .column{
 	float: left;
