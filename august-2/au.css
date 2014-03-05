@@ -92,6 +92,13 @@ a, a:visited{
 	text-align: center;
 	
 }
+#freebie-title2{
+	line-height: 50px;
+	letter-spacing:-1px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	font-size:18px;
+}
 #clients{
 	width:100%;
 	height: 150px;
