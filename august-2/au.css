@@ -90,6 +90,7 @@ a, a:visited{
 	letter-spacing:-1px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-align: center;
+	font-size:17px;
 	
 }
 #freebie-title2{
@@ -97,7 +98,7 @@ a, a:visited{
 	letter-spacing:-1px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-align: center;
-	font-size:22px;
+	font-size:23px;
 }
 #clients{
 	width:100%;
