@@ -87,6 +87,7 @@ a, a:visited{
 }
 #freebie-title{
 	line-height: 50px;
+	letter-spacing:-1px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-align: center;
 	
@@ -95,6 +96,17 @@ a, a:visited{
 	width:100%;
 	height: 150px;
 	border-bottom: 1px solid #ccc;
+}
+.clients-container{
+	width: 1024px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.client-item{
+	width: 19.8%;
+	float: left;
+	
 }
 #features{
 	width:100%;
@@ -117,28 +129,43 @@ a, a:visited{
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 	color: #2D5C8E;
 }
+.icon-cl{
+	width: 130px;
+	margin-top: 15px;
+}
 .icon-fe{
 	float:left;
 	margin: 5px;
+	width: 50px;
 }
 /*testimonials*/
 .row{
-        width:100%;
+    width:100%;
 	height: 250px;
-	border-bottom: 1px 
-	solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
 }
-blockquote {
-	width: 341px;
+.row-container{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.testimonial {
+	width: 340px;
 	float: left;
-	border-left: 0px 
-	solid #dddddd;
+	background: url(img/vig.png);
 	font-family: 'Tahoma', 'Geneva', sans-serif;
+	line-height: 15px;
+	z-index: 3;
+}
+.p-testimonial{
+	margin: 20px;
+	
 }
 right{
-  display: block;
+  
   font-size: 0.8125rem;
-  float:right;
+  float:left;
   color: #555555;
   font-family: 'Tahoma', 'Geneva', sans-serif;
 }
