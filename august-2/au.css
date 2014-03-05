@@ -153,7 +153,6 @@ a, a:visited{
 .testimonial {
 	width: 340px;
 	float: left;
-	background: url(img/vig.png);
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 	line-height: 15px;
 	z-index: 3;
@@ -203,6 +202,18 @@ right{
 	background:#98D435;
 	margin-left: auto;
 	margin-right: auto;
+}
+.column{
+	float: left;
+	font-size: 10px;
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+.terms{
+	width: 1024px;
+	height:15px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 /*button*/
 .button {
