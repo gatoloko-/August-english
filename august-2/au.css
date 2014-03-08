@@ -27,14 +27,16 @@ a, a:visited{
 	margin: 0px;
 	height: 60px;
 	border-right:1px solid #006699;
-	padding-right: 30px;
+	border-left:1px solid #006699;
+	padding-right: 10px;
+	padding-left: 10px;
 	
 }
 .menu-item{
 	border-right:1px solid #006699;
 	line-height: 60px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 24px;
+	padding-right: 24px;
 	float: left;
 	font-family: 'salt', regular;
 	color: #FFF;
@@ -42,11 +44,12 @@ a, a:visited{
 }
 .menu-item1{
 	border-right:1px solid #006699;
+	width: auto;
 	line-height: 60px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	float: left;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Alegreya', serif;
 	color: #98D435;
 	font-size: 20px;
 }
@@ -86,19 +89,22 @@ a, a:visited{
 	color: #006699;
 }
 #freebie-title{
-	line-height: 50px;
-	letter-spacing:-1px;
 	font-family: 'salt', regular;
-	text-align: center;
-	font-size:25px;
-	
+	position:relative;
+	width:auto;
+	height:25px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #freebie-title2{
-	line-height: 50px;
-	letter-spacing:-1px;
 	font-family: 'salt', regular;
-	text-align: center;
-	font-size:31px;
+	position:relative;
+	width:350px;
+	height:25px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #clients{
 	width:100%;
