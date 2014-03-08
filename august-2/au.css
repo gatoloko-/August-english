@@ -38,7 +38,7 @@ a, a:visited{
 	float: left;
 	font-family: 'salt', regular;
 	color: #FFF;
-	font-size: 20px;
+	font-size: 23px;
 }
 .menu-item1{
 	border-right:1px solid #006699;
@@ -98,7 +98,7 @@ a, a:visited{
 	letter-spacing:-1px;
 	font-family: 'salt', regular;
 	text-align: center;
-	font-size:29px;
+	font-size:31px;
 }
 #clients{
 	width:100%;
@@ -233,9 +233,8 @@ right{
    background: #35d471;
    padding: 10px 35px 10px 35px;
    color: black;
-   font-size: 16px;
    font-family: 'salt', regular;
-   font-size: 25px;
+   font-size: 28px;
    text-decoration: none;
    vertical-align: middle;
    }
