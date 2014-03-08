@@ -82,7 +82,7 @@ a, a:visited{
 	line-height: 90px;
 	font-family: 'salt', regular;
 	text-align: left;
-	font-size:38px;
+	font-size:58px;
 	color: #006699;
 }
 #freebie-title{
@@ -90,7 +90,7 @@ a, a:visited{
 	letter-spacing:-1px;
 	font-family: 'salt', regular;
 	text-align: center;
-	font-size:28px;
+	font-size:25px;
 	
 }
 #freebie-title2{
@@ -98,7 +98,7 @@ a, a:visited{
 	letter-spacing:-1px;
 	font-family: 'salt', regular;
 	text-align: center;
-	font-size:23px;
+	font-size:29px;
 }
 #clients{
 	width:100%;
@@ -136,6 +136,9 @@ a, a:visited{
 	float: left;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: #2D5C8E;
+}
+h2{
+font-family: 'salt', regular;
 }
 .icon-cl{
 	width: 130px;
