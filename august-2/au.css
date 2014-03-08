@@ -222,6 +222,9 @@ right{
 	margin-left: auto;
 	margin-right: auto;
 }
+h2{
+font-family: 'salt', regular;
+}
 .column{
 	float: left;
 	font-size: 10px;
