@@ -38,7 +38,7 @@ a, a:visited{
 	float: left;
 	font-family: 'salt', regular;
 	color: #FFF;
-	font-size: 17px;
+	font-size: 20px;
 }
 .menu-item1{
 	border-right:1px solid #006699;
@@ -48,7 +48,7 @@ a, a:visited{
 	float: left;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: #98D435;
-	font-size: 17px;
+	font-size: 20px;
 }
 .menu-item:hover{
 	background: #006699;
@@ -234,7 +234,7 @@ right{
    padding: 10px 35px 10px 35px;
    color: black;
    font-size: 16px;
-   font-family: 'Alegreya Sans SC', sans-serif;
+   font-family: 'salt', regular;
    font-size: 25px;
    text-decoration: none;
    vertical-align: middle;
