@@ -17,12 +17,14 @@
   width: 100%;
   left: 0;
   top: 0;
+  z-index: 0;
   }
 
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
+  z-index: 0;
   }
 
 .rslides img {
@@ -31,4 +33,5 @@
   float: left;
   width: 100%;
   border: 0;
+  z-index: 0;
   }
