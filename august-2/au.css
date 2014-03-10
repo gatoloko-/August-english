@@ -102,21 +102,21 @@ a, a:visited{
 	position: relative;
 	top: -100px;
 	left: 50px;
-	line-height: 90px;
+	line-height: 70px;
 	font-family: 'salt__foamregular';
 	text-align: left;
-	font-size: 38px;
+	font-size: 50px;
 	color: #006699;
 }
 #freebie-title{
 	font-family: 'salt__foamregular';
-	font-size: 25px;
+	font-size: 35px;
 	position:relative;
 	width:auto;
 	height: 25px;
 	display: inline;
 	margin-top: 5px;
-	margin-left: 40px;
+	margin-left: 55px;
 	margin-right: auto;
 }
 #freebie-title2{
@@ -126,7 +126,7 @@ a, a:visited{
 	width:350px;
 	height:25px;
 	display: inline;
-	margin-left: 40px;
+	margin-left: 55px;
 	margin-right: auto;
 }
 #clients{
@@ -200,7 +200,7 @@ font-size:30px;
 }
 .p-testimonial{
 	margin: 20px;
-	font-family: 'salt', regular;
+	font-family: 'Tahoma', 'Geneva', sans-serif;
 }
 .p-testimonial1{
 	margin: 19px;
