@@ -41,8 +41,8 @@ a, a:visited{
 	float:left;
 	margin: 0px;
 	height: 60px;
-	border-right:1px solid #006699;
-	border-left:1px solid #006699;
+	border-right:0px solid #006699;
+	border-left:0px solid #006699;
 	padding-right: 10px;
 	padding-left: 10px;
 	
