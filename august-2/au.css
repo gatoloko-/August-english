@@ -55,7 +55,7 @@ a, a:visited{
 	float: left;
 	font-family: 'salt__foamregular';
 	color: #FFF;
-	font-size: 23px;
+	font-size: 27px;
 }
 .menu-item1{
 	border-right:1px solid #006699;
@@ -64,9 +64,9 @@ a, a:visited{
 	padding-left: 20px;
 	padding-right: 20px;
 	float: left;
-	font-family: 'Alegreya', serif;
+	font-family: 'arial', regular;
 	color: #98D435;
-	font-size: 20px;
+	font-size: 27px;
 }
 .menu-item:hover{
 	background: #006699;
