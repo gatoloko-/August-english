@@ -71,6 +71,11 @@ a, a:visited{
 .menu-item:hover{
 	background: #006699;
 	color: #FFF;
+	-webkit-transition: background 500ms ease;
+	-moz-transition: background 500ms ease;
+	-ms-transition: background 500ms ease;
+	-o-transition: background 500ms ease;
+	transition: background 500ms ease;
 }
 
 #head{
@@ -102,7 +107,7 @@ a, a:visited{
 	width:200px;
 	font-size: 18px;
 	padding: 5px;
-	font-family: 'salt__foamregular';
+	font-family: 'Alegreya', serif;
 }
 #header{
 	position: relative;
@@ -276,14 +281,14 @@ font-family: 'salt', regular;
 .button {
 	border: 0px;
 	border-radius: 3px;
-   background: #35d471;
-   padding: 10px 35px 10px 35px;
-   color: black;
-   font-family: 'salt', regular;
-   font-size: 35px;
-   text-decoration: none;
-   vertical-align: middle;
-   }
+	background: #35d471;
+	padding: 10px 35px 10px 35px;
+	color: black;
+	font-family: 'salt', regular;
+	font-size: 35px;
+	text-decoration: none;
+	vertical-align: middle;
+}
 .button:hover {
    background: #006699;
    color: #FFF;
