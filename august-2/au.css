@@ -103,7 +103,7 @@ a, a:visited{
 	line-height: 70px;
 	font-family: 'salt__foamregular';
 	text-align: left;
-	font-size: 70px;
+	font-size: 50px;
 	color: #006699;
 }
 #freebie-title{
@@ -114,7 +114,7 @@ a, a:visited{
 	height: 25px;
 	display: inline;
 	margin-top: 5px;
-	margin-left: 75px;
+	margin-left: 55px;
 	margin-right: auto;
 }
 #freebie-title2{
