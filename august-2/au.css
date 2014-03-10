@@ -264,10 +264,11 @@ right{
 }
 h2{
 font-family: 'salt__foamregular';
+font-size:35px;
 }
 .column{
 	float: left;
-	font-size: 10px;
+	font-size: 25px;
 	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 .terms{
