@@ -98,6 +98,12 @@ a, a:visited{
 	box-shadow: 2px 2px 8px 1px #000;
 	z-index: 3;
 }
+.mail-input{
+	width:200px;
+	font-size: 18px;
+	padding: 5px;
+	font-family: 'salt__foamregular';
+}
 #header{
 	position: relative;
 	top: -100px;
