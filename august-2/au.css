@@ -178,7 +178,7 @@ a, a:visited{
 	color: #2D5C8E;
 }
 h2f{
-font-family: 'salt', regular;
+font-family: 'salt__foamregular';
 font-size:30px;
 }
 .icon-cl{
@@ -215,7 +215,7 @@ font-size:30px;
 }
 .p-testimonial1{
 	margin: 19px;
-	font-family:'salt', regular;
+	font-family:'salt__foamregular';
 	font-size: 21px;
 	
 
@@ -263,7 +263,7 @@ right{
 	margin-right: auto;
 }
 h2{
-font-family: 'salt', regular;
+font-family: 'salt__foamregular';
 }
 .column{
 	float: left;
@@ -284,7 +284,7 @@ font-family: 'salt', regular;
 	background: #35d471;
 	padding: 10px 35px 10px 35px;
 	color: black;
-	font-family: 'salt', regular;
+	font-family: 'salt__foamregular';
 	font-size: 35px;
 	text-decoration: none;
 	vertical-align: middle;
