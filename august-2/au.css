@@ -100,7 +100,7 @@ a, a:visited{
 	position: relative;
 	top: -100px;
 	left: 50px;
-	line-height: 90px;
+	line-height: 80px;
 	font-family: 'salt__foamregular';
 	text-align: left;
 	font-size: 70px;
@@ -108,7 +108,7 @@ a, a:visited{
 }
 #freebie-title{
 	font-family: 'salt__foamregular';
-	font-size: 40px;
+	font-size: 35px;
 	position:relative;
 	width:auto;
 	height: 25px;
