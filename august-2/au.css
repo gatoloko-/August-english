@@ -64,7 +64,7 @@ a, a:visited{
 	padding-left: 20px;
 	padding-right: 20px;
 	float: left;
-	font-family: 'arial', regular;
+	font-family: "arial", regular;
 	color: #98D435;
 	font-size: 20px;
 }
@@ -286,8 +286,8 @@ font-size:18px;
 	background: #35d471;
 	padding: 10px 35px 10px 35px;
 	color: black;
-	font-family: "arial",sans-serif;
-	font-size: 35px;
+	font-family: "arial",regular;
+	font-size: 30px;
 	text-decoration: none;
 	vertical-align: middle;
 }
