@@ -41,8 +41,8 @@ a, a:visited{
 	float:left;
 	margin: 0px;
 	height: 60px;
-	border-right:1px solid #006699;
-	border-left:1px solid #006699;
+	border-right:0px solid #006699;
+	border-left:0px solid #006699;
 	padding-right: 10px;
 	padding-left: 10px;
 	
@@ -50,12 +50,12 @@ a, a:visited{
 .menu-item{
 	border-right:1px solid #006699;
 	line-height: 60px;
-	padding-left: 24px;
-	padding-right: 24px;
+	padding-left: 18px;
+	padding-right: 18px;
 	float: left;
 	font-family: 'salt__foamregular';
 	color: #FFF;
-	font-size: 23px;
+	font-size: 27px;
 }
 .menu-item1{
 	border-right:1px solid #006699;
@@ -64,7 +64,7 @@ a, a:visited{
 	padding-left: 20px;
 	padding-right: 20px;
 	float: left;
-	font-family: 'Alegreya', serif;
+	font-family: "arial", regular;
 	color: #98D435;
 	font-size: 20px;
 }
@@ -96,7 +96,7 @@ a, a:visited{
 	background: #eaf0f3;
 	border-radius: 5px;
 	position: relative;
-	top: 40px;
+	top: 120px;
 	left: 610px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	-webkit-box-shadow: 2px 2px 8px 1px #000;
@@ -111,12 +111,12 @@ a, a:visited{
 }
 #header{
 	position: relative;
-	top: -100px;
-	left: 50px;
+	top: -1000px;
+	left: 0px;
 	line-height: 70px;
 	font-family: 'salt__foamregular';
 	text-align: left;
-	font-size: 50px;
+	font-size: 55px;
 	color: #006699;
 }
 #freebie-title{
@@ -215,8 +215,8 @@ font-size:30px;
 }
 .p-testimonial1{
 	margin: 19px;
-	font-family:'salt__foamregular';
-	font-size: 21px;
+	font-family: 'arial', "regular";
+	font-size: 15px;
 	
 
 }
@@ -259,13 +259,13 @@ right{
 	width: 100%;
 	height: 200px;
 	background:#98D435;
-	text-align:center;
+	text-align:left;
 	margin-left: auto;
 	margin-right: auto;
 }
 h2{
 font-family: 'salt__foamregular';
-font-size:18px;
+font-size:20px;
 }
 .column{
 	float: left;
@@ -284,10 +284,10 @@ font-size:18px;
 	border: 0px;
 	border-radius: 3px;
 	background: #35d471;
-	padding: 10px 35px 10px 35px;
+	padding: 9px 34px 9px 34px;
 	color: black;
-	font-family: 'salt__foamregular';
-	font-size: 35px;
+	font-family: "arial",regular;
+	font-size: 30px;
 	text-decoration: none;
 	vertical-align: middle;
 }
