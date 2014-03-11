@@ -93,7 +93,7 @@ a, a:visited{
 #cta{
 	width: 450px;
 	height: 140px;
-	background: #eaf0f3;
+	background: #35d471;
 	border-radius: 5px;
 	position: relative;
 	top: 120px;
@@ -193,7 +193,7 @@ font-size:30px;
 /*testimonials*/
 .row{
     width:100%;
-	height: 270px;
+	height: 250px;
 	border-bottom: 1px solid #ccc;
 	
 }
@@ -283,7 +283,7 @@ font-size:20px;
 .button {
 	border: 0px;
 	border-radius: 3px;
-	background: #35d471;
+	background: #2ba0fe;
 	padding: 9px 34px 9px 34px;
 	color: black;
 	font-family: "arial",regular;
