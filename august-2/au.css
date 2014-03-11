@@ -120,7 +120,7 @@ a, a:visited{
 	color: #006699;
 }
 #freebie-title{
-	font-family: 'salt__foamregular';
+	font-family: "arial", regular;
 	font-size: 35px;
 	position:relative;
 	width:auto;
@@ -131,7 +131,7 @@ a, a:visited{
 	margin-right: auto;
 }
 #freebie-title2{
-	font-family: 'salt__foamregular';
+	font-family: "arial", regular;
 	font-size: 25px;
 	position:relative;
 	width:350px;
