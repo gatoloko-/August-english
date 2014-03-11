@@ -50,8 +50,8 @@ a, a:visited{
 .menu-item{
 	border-right:1px solid #006699;
 	line-height: 60px;
-	padding-left: 24px;
-	padding-right: 24px;
+	padding-left: 18px;
+	padding-right: 18px;
 	float: left;
 	font-family: 'salt__foamregular';
 	color: #FFF;
