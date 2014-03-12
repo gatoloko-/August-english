@@ -92,7 +92,7 @@ a, a:visited{
 }
 #cta{
 	width: 500px;
-	height: 200px;
+	height: 180px;
 	background: #98D435;
 	border-radius: 5px;
 	position: relative;
@@ -132,7 +132,7 @@ a, a:visited{
 }
 #freebie-title2{
 	font-family: "arial", regular;
-	font-size: 25px;
+	font-size: 23px;
 	position:relative;
 	width:350px;
 	height:25px;
