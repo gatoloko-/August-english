@@ -51,7 +51,7 @@ a, a:visited{
 	border-right:1px solid #006699;
 	line-height: 60px;
 	padding-left: 18px;
-	padding-right: 18px;
+	padding-right: 18px;	
 	float: left;
 	font-family: 'salt__foamregular';
 	color: #FFF;
@@ -86,7 +86,7 @@ a, a:visited{
 .slide{
 	width: 1024px;
 	position: relative;
-	top: -140px;
+	top: -180px;
 	margin-left: auto;
 	margin-right: auto;
 }
