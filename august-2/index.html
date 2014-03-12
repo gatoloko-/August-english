@@ -24,6 +24,32 @@
 				$(".rslides").responsiveSlides();
 			});
 		</script>
+		
+		<script>
+			function validate1 () {
+
+				if ($('#email').val()=="") {
+					alert("Ingresa tu email!");
+					event.preventDefault();
+				}else{
+					alert("Gracias por tu interes!")
+					$("#cta-form-1").submit();
+					
+				}
+			}
+			/*========================================*/
+			function validate2 () {
+
+				if ($('#email2').val()=="") {
+					alert("Ingresa tu email!");
+					event.preventDefault();
+				}else{
+					alert("Gracias por tu interes!");
+					$("#cta-form-2").submit();
+					
+				}
+			}
+		</script>
 	</head>
 
 	<body>
@@ -36,8 +62,14 @@
 					<div class="menu-item">EL CURSO</div>
 					<div class="menu-item">PROFESORES</div>
 					<div class="menu-item">COMENZAR</div>
-					<div class="menu-item1"> <img src="img/mail-icon-hi-2.png" height="30" padding-top=10px; style="float: left"/> <a href="callto:+562 26647940" style="padding-left: 27px; padding-right: 27px;">+562 2664 7940</a></div>
-					<center><div class="menu-item"> <img src="img/eng2.jpg" height="20" padding-right=1px; style="float: left"/> <img src="img/esp2.jpg" height="20" padding-top:37px; style="float: left"/> </div>	</center>
+					<div class="menu-item1">
+						<img src="img/mail-icon-hi-2.png" height="30" style="padding-top: 10px; float: left"/>
+						<a href="callto:+562 26647940" style="padding-left: 20px; padding-right: 27px;">+562 2664 7940</a>
+					</div>
+					<div class="menu-item">
+						<img src="img/eng2.jpg" height="20"/>
+						<img src="img/esp2.jpg" height="20" />
+					</div>
 						
 				</div>
 			</div>
@@ -51,14 +83,14 @@
 							<br>
 				
 								<div align="center">
-								<form action="https://www.augustenglishchile.com/thankyou" method="post">
-		        					 <input class="mail-input" type='text' name='fields[email]' placeholder="Ingresa tu email"/>
-		        					 <input type="hidden" name="source" value="augustenglishchile.com"/>
-		        					 <input type="hidden" name="redirect_to" value="augustenglishchile.com/testyourenglish.pdf"/>
-          						</form>
+									<form id="cta-form-1" action="http://www.augustenglishchile.com/thankyou" method="post">
+			        					 <input class="mail-input" type='text' name='email' id="email" placeholder="Ingresa tu email"/>
+			        					 <input type="hidden" name="source" value="augustenglishchile.com"/>
+			        					 <input type="hidden" name="redirect_to" value="augustenglishchile.com/testyourenglish.pdf"/>
+	          						</form>
 							</div>
 						<br>
-						<div align="center"> <button class="button">Hazlo ya!</button></div>
+						<div align="center"> <button class="button" name="sender" id="sender" onclick="validate1();">Hazlo ya!</button></div>
 				</div>
 				<div class="slide">
 					<ul class="rslides">  
@@ -76,7 +108,7 @@
 			<div class="in-features">
 				<div class="fe">
 					<p class="p-fe">
-							<img src="img/money.jpg" class="icon-fe" /><h2f>ECONOMICO</h2f><br />
+							<img src="img/money.jpg" class="icon-fe" /><span class="h2f">ECONOMICO</span><br />
 							<p class="p-fe">
 							Clases personalizadas dictadas por profesores nativos desde $ 2.500 la sesión.
 							</p>  
@@ -85,7 +117,7 @@
 					</div>
 					<div class="fe">
 						<p class="p-fe">
-							<img src="img/flexible.jpg" class="icon-fe"/><h2f>FLEXIBLE</h2f><br />
+							<img src="img/flexible.jpg" class="icon-fe"/><span class="h2f">FLEXIBLE</span><br />
 							<p class="p-fe">
 								Tu eliges los dias y las horas que se adapten mejor a tu horario de la forma que quieras siempre habra un lugar en August English para ti.
 
@@ -94,7 +126,7 @@
 					</div>
 					<div class="fe">
 						<p class="p-fe">
-							<img src="img/social.jpg" class="icon-fe"/><h2f>SOCIAL</h2f><br />
+							<img src="img/social.jpg" class="icon-fe"/><span class="h2f">SOCIAL</span><br />
 							<p class="p-fe">
 							Creamos un ambiente de aprendizaje divertido donde hacer amistades es muy fácil, practica tu Inglés fuera del aula en nuestros eventos sociales gratuitos para nuestros alumnos.
 							</p>  
@@ -130,23 +162,35 @@
 			<div id="cta2">
 				<div id="main-cta2">
 					<div class="cta2-top">
-						<img src="img/book.png" width="100" style="margin: 15px;"/><div id="freebie-title">Inscribite y Recibe tu guia de verbos Gratis!</div>
+						<img src="img/book.png" width="80" style="margin: 15px; float: left;"/><span class="cta2-title1">Inscribete y Recibe <br /> guia de verbos Gratis!</span> 
 				
-					</div>
-					<div align="center">
-								<form action="https://www.augustenglishchile.com/thankyou" method="post">
-		        					 <input class="mail-input" type='text' name='fields[email]' placeholder="Ingresa tu email"/>
-		        					 <input type="hidden" name="source" value="augustenglishchile.com"/>
-		        					 <input type="hidden" name="redirect_to" value="augustenglishchile.com/testyourenglish.pdf"/>
-          						</form>
-							</div>
+					</div>						
 					
 					<div class="cta2-bottom">
 
-						<img src="img/book.png" width="80" >
-						<div id="freebie-title"><span>Descargala Ahora!</span></div>
-						
-
+					
+						<form id="cta-form-2" action="http://www.augustenglishchile.com/thankyou" method="post">
+							<table class="table-cta2">
+								<tr>
+									<td>
+										<div align="center">
+											<input class="mail-input2" type='text' name='email2' id="email2" placeholder="Ingresa tu email"/>
+										</div>
+										<input type="hidden" name="source" value="augustenglishchile.com"/>
+	    								<input type="hidden" name="redirect_to" value="augustenglishchile.com/testyourenglish.pdf"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<button class="button" name="sender" id="sender" onclick="validate2();">Descargalo Ya!</button>
+									</td>
+								</tr>
+							</table>
+	    					
+	    					
+	    					
+						</form>
+					
 					</div>
 				</div>
 				
@@ -177,7 +221,7 @@
 					      <div class="testimonial" style="background: url(img/vig3.png);">
 					        <div class="p-testimonial">"Absolutamente recomendable!! Este es un curso práctico que te entrega las herramientas para un buen 
 					        manejo del ingles. Las clases son super entretenidas lo que permite un aprendizaje dinámico  y efectivo. Habia tomado muchos 
-					        cursos anteriormente, pero este fue lejos el mejor."</div><br/><br/>
+					        cursos anteriormente, pero este fue lejos el mejor."</div><br/><br/><br />
 					        <div class="p-testimonial1" ><img src="img/testimonial-icon.jpg" class="icon-fe"/> <strong>Joaquin Joaquin</strong>, Estudiante
 							</div>
 						</div>
@@ -185,7 +229,7 @@
 				</div>
 			
 			<div id="foot">
-				<div style="width: 1024px; margin-left: auto; margin-right: auto;">
+				<div style="margin-left: auto; margin-right: auto;">
 			
 
 				<article class="column">      
@@ -220,24 +264,24 @@
 					
 						<table>
 						<tr>
-							<td><img src="img/so-icons/fb.png" width="30" /><a href="http://www.facebook.com/openenglish" class="facebook">Facebook</a></td>
+							<td><img src="img/so-icons/fb.png" width="30" style="float: left;"/><a href="http://www.facebook.com/openenglish" class="social-labels">Facebook</a></td>
 							
 							
 						</tr>
 						<tr>
 							
-							<td><img src="img/so-icons/tw.png" width="30" /> <a href="http://twitter.com/openenglish" class="twitter">LinkedIn</a></td>
+							<td><img src="img/so-icons/tw.png" width="30" style="float: left;"/> <a href="http://twitter.com/openenglish" class="social-labels">LinkedIn</a></td>
 							
 						</tr>
 						<tr>
 							
-							<td><img src="img/so-icons/goo.png" width="30" /><a href="http://www.youtube.com/openenglishtv" class="you-tube">Youtube</a></td>
+							<td><img src="img/so-icons/yt.png" width="30" style="float: left;"/><a href="http://www.youtube.com/openenglishtv" class="social-labels">Youtube</a></td>
 						</ul>	
 						</tr>
 					</table>
 					<tr>
 							
-							<td><img src="img/so-icons/goo.png" width="30" /><a href="http://www.youtube.com/openenglishtv" class="you-tube">Google+</a></td>
+							<td><img src="img/so-icons/goo.png" width="30" style="float: left;"/><a href="http://www.youtube.com/openenglishtv" class="social-labels">Google+</a></td>
 						</ul>	
 						</tr>
 				</article>
@@ -250,47 +294,16 @@
 							<li><a href="/la/soporte/faq/" class="">Preguntas Frecuentes</a></li>
 					</ul>     
 				</article>
-					<article class="column">      
-					<ul>              
-						<h2><a href=" /la/corporativo/">Clases</a></h2>
-<<<<<<< HEAD
-
-							<table>
-							<tr>
-								<td><img src="img/so-icons/fb.png" width="30" /><a href="http://www.facebook.com/openenglish">Facebook</a></td>
-								
-								
-							</tr>
-							<tr>
-								
-								<td><img src="img/so-icons/tw.png" width="30" /> <a href="http://twitter.com/openenglish" >LinkedIn</a></td>
-								
-							</tr>
-							<tr>
-								
-								<td><img src="img/so-icons/goo.png" width="30" /><a href="http://www.youtube.com/openenglishtv" >Youtube</a></td>
-							</ul>	
-							</tr>
-						</table>
-							
-
-
-						<li><a href="/la/corporativo/quienes-somos/" class="">Cursos para profesionales</a></li>
-=======
-				<li><a href="/la/corporativo/quienes-somos/" class="">Cursos para profesionales</a></li>
->>>>>>> FETCH_HEAD
-						<li><a href="/la/corporativo/mision-y-valores/" class="">Cursos para Empresas</a></li>            
-						<li><a href="/la/corporativo/conoce-nuestro-equipo/" class="">Cursos Específicos-Industria</a></li>
+				<article class="column">      
+						<ul>              
+							<h2><a href=" /la/corporativo/">Clases</a></h2>
+							<li><a href="/la/corporativo/mision-y-valores/" class="">Cursos para Empresas</a></li>            
+							<li><a href="/la/corporativo/conoce-nuestro-equipo/" class="">Cursos Específicos-Industria</a></li>
 							<li><a href="/la/corporativo/quienes-somos/" class="">Entrevistas en Inglés</a></li>
-						<li><a href="/la/corporativo/mision-y-valores/" class="">Preparación para Exámenes</a></li>            
-						<li><a href="/la/corporativo/conoce-nuestro-equipo/" class="">Cursos para Niños</a></li>
-						<li><a href="/la/corporativo/conoce-nuestro-equipo/" class="">Precios</a></li>
-
-						
-						
-						
-			
-					</ul>
+							<li><a href="/la/corporativo/mision-y-valores/" class="">Preparación para Exámenes</a></li>            
+							<li><a href="/la/corporativo/conoce-nuestro-equipo/" class="">Cursos para Niños</a></li>
+							<li><a href="/la/corporativo/conoce-nuestro-equipo/" class="">Precios</a></li>
+						</ul>
 				</article>
 				</div>
 		</div>

@@ -13,6 +13,7 @@
 }
 
 /*Font*/
+/*Standar labels*/
 html, body{
 	margin: 0px;
 	padding: 0px;
@@ -23,6 +24,14 @@ a, a:visited{
 	text-decoration: none;
 	color: inherit;
 }
+
+h2{
+font-family: 'salt__foamregular';
+font-size:20px;
+}
+
+/* menu ==============>>>>>>>>>>>>>>*/
+
 #navigation{
 	width:100%;
 	height: 60px;
@@ -44,7 +53,7 @@ a, a:visited{
 	border-right:0px solid #006699;
 	border-left:0px solid #006699;
 	padding-right: 10px;
-	padding-left: 10px;
+	
 	
 }
 .menu-item{
@@ -78,6 +87,8 @@ a, a:visited{
 	transition: background 500ms ease;
 }
 
+
+/*Slide and CTA 1*=====================================>>>>>>>>>>>>>>>>*/
 #head{
 	width:100%;
 	height: 506px;
@@ -111,13 +122,14 @@ a, a:visited{
 }
 #header{
 	position: relative;
-	top: -1000px;
-	left: 0px;
+	top: -500px;
+	left: 60px;
 	line-height: 70px;
 	font-family: 'salt__foamregular';
 	text-align: left;
 	font-size: 55px;
 	color: #006699;
+	z-index: 9;
 }
 #freebie-title{
 	font-family: "arial", regular;
@@ -140,11 +152,15 @@ a, a:visited{
 	margin-left: 45px;
 	margin-right: auto;
 }
+
+/*clientes=======================>>>>>>>>>>>*/
 #clients{
 	width:100%;
-	height: 150px;
+	height: 180px;
 	border-bottom: 1px solid #ccc;
+	top: -95px;
 }
+
 .clients-container{
 	width: 1024px;
 	height: 150px;
@@ -156,20 +172,34 @@ a, a:visited{
 	float: left;
 	
 }
+
+.icon-cl{
+	width: 130px;
+	margin-top: 15px;
+}
+
+/*Features==============>>>>>>>>>>>>>*/
+
+
 #features{
 	width:100%;
-	height: 250px;
+	height: 200px;
 	border-bottom: 1px solid #ccc;
 }
 .in-features{
 	width:1024px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 .p-fe{
 	
 	margin: 10px;
 	
+}
+.h2f{
+	font-family: 'salt__foamregular';
+	font-size:30px;
 }
 .fe{
 	width: 341px;
@@ -177,16 +207,26 @@ a, a:visited{
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: #2D5C8E;
 }
+
+
+.icon-fe{
+	float:left;
+	margin: 5px;
+	width: 50px;
+}
+
+/* CTA 2 ==================>>>>>>>>>>>>*/
+
 #cta2{
 	width:100%;
-	height: 250px;
+	height: 270px;
 	border-bottom: 1px solid #ccc;
 	text-align: center;
 	
 }
 #main-cta2{
 	width: 500px;
-	height: 200px;
+	height: 250px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 	margin-left: auto;
@@ -201,28 +241,48 @@ a, a:visited{
 	border-radius: 10px 10px 0px 0px;
 }
 .cta2-bottom{
-	width: 600px;
+	width: 100%;
 	height: 50%;
 	background: #f08233;
 	border-radius: 0px 0px 10px 10px;
 }
-h2f{
-font-family: 'salt__foamregular';
-font-size:30px;
+.table-cta2{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
-.icon-cl{
-	width: 130px;
+.cta2-title1{
 	margin-top: 15px;
+	margin-left: 20px;
+	font-family: "arial", regular;
+	font-size: 30px;
+	margin-left: 20px;
+	float: left;
+	text-align: left;
 }
-.icon-fe{
-	float:left;
-	margin: 5px;
-	width: 50px;
+.cta2-title2{
+	margin-top: 5px;
+	font-family: "arial", regular;
+	font-size: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
 }
-/*testimonials*/
+.mail-input2{
+	margin-top: 15px;
+	width:200px;
+	font-size: 18px;
+	padding: 5px;
+	font-family: 'Alegreya', serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*testimonials==========>>>>>>>>>>>>>*/
 .row{
     width:100%;
-	height: 250px;
+	height: 280px;
 	border-bottom: 1px solid #ccc;
 	
 }
@@ -237,6 +297,7 @@ font-size:30px;
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 	line-height: 15px;
 	z-index: 3;
+	margin-top: 15px;
 }
 .p-testimonial{
 	margin: 20px;
@@ -246,21 +307,9 @@ font-size:30px;
 	margin: 19px;
 	font-family: 'arial', "regular";
 	font-size: 15px;
-	
+}
 
-}
-right{
-  
-  font-size: 0.8125rem;
-  float:left;
-  color: #555555;
-  font-family: 'Tahoma', 'Geneva', sans-serif;
-}
- .large-4 {
-    width:1024px;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .in-press{
 	margin: 15px;
 	width: 468px;
@@ -268,22 +317,7 @@ right{
 	/*background: #eaf0f3;*/
 }
 
-#clients{
-	width: 100%;
-	height: 200px;
-	top: -95px;
-	
-}
-.cl{
-	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-	margin: 0px;
-	padding: 0px;
-	width: 19.8%;
-	height: 100%;
-	float:left;
-	text-align:left;
-	border-bottom: 1px solid #98d435;
-}
+/*Footer ==================================>>>>>>>>>>>>>>>>>*/
 #foot{
 	width: 100%;
 	height: 200px;
@@ -292,10 +326,7 @@ right{
 	margin-left: auto;
 	margin-right: auto;
 }
-h2{
-font-family: 'salt__foamregular';
-font-size:20px;
-}
+
 .column{
 	float: left;
 	font-size: 13px;
@@ -306,6 +337,11 @@ font-size:20px;
 	height:15px;
 	margin-left: auto;
 	margin-right: auto;
+	
+}
+.social-labels{
+	line-height: 30px;
+	float:left;
 	
 }
 /*button*/
