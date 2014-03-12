@@ -177,6 +177,35 @@ a, a:visited{
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: #2D5C8E;
 }
+#cta2{
+	width:100%;
+	height: 250px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	
+}
+#main-cta2{
+	width: 500px;
+	height: 230px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	
+}
+.cta2-top{
+	width: 100%;
+	height: 50%;
+	background: url(/img/cta-bck.png);
+	border-radius: 10px 10px 0px 0px;
+}
+.cta2-bottom{
+	width: 100%;
+	height: 50%;
+	background: #35d471;
+	border-radius: 0px 0px 10px 10px;
+}
 h2f{
 font-family: 'salt__foamregular';
 font-size:30px;
