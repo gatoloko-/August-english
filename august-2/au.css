@@ -26,8 +26,10 @@ a, a:visited{
 }
 
 h2{
-font-family: 'salt__foamregular';
-font-size:20px;
+	line-height: 8px;
+	font-family: 'salt__foamregular';
+	font-size:23px;
+	letter-spacing: 0.02em;
 }
 
 /* menu ==============>>>>>>>>>>>>>>*/
@@ -65,6 +67,7 @@ font-size:20px;
 	font-family: 'salt__foamregular';
 	color: #FFF;
 	font-size: 27px;
+	letter-spacing: 0.07em;
 }
 .menu-item1{
 	border-right:1px solid #006699;
@@ -75,7 +78,7 @@ font-size:20px;
 	float: left;
 	font-family: "arial", regular;
 	color: #98D435;
-	font-size: 20px;
+	font-size: 17px;
 }
 .menu-item:hover{
 	background: #006699;
