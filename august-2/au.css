@@ -100,7 +100,7 @@ h2{
 .slide{
 	width: 1024px;
 	position: relative;
-	top: -180px;
+	/*top: -180px;*/
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -110,8 +110,8 @@ h2{
 	background: #98D435;
 	border-radius: 5px;
 	position: relative;
-	top: 120px;
-	left: 610px;
+	top: -550px;
+	left: 410px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	-webkit-box-shadow: 2px 2px 8px 1px #000;
 	box-shadow: 2px 2px 8px 1px #000;
@@ -329,6 +329,8 @@ h2{
 	text-align:left;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
 }
 
 .column{

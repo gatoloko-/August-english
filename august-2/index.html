@@ -26,7 +26,7 @@
 		</script>
 		
 		<script>
-			function validate1 () {
+function validate1 () {
 
 				if ($('#email').val()=="") {
 					alert("Ingresa tu email!");
@@ -49,19 +49,41 @@
 					
 				}
 			}
-		</script>
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
 	</head>
 
-	<body>
+	<body onLoad="MM_preloadImages('img/h-client1.png')">
 		
 			<div id="navigation">
 				<div id="menu">
 					<div class="logo">
 						<a href="augustenglishchile.com"><img src="img/logo.jpg" height="61" width="260"/></a>
 					</div>
-					<div class="menu-item">EL CURSO</div>
-					<div class="menu-item">PROFESORES</div>
-					<div class="menu-item">COMENZAR</div>
+					<a href="/clases/08.htm"><div class="menu-item">EL CURSO</div></a>
+					<a href="/profesores.htm"><div class="menu-item">PROFESORES</div></a>
+					<a href="/contacto/index.htm"><div class="menu-item">COMENZAR</div></a>
 					<div class="menu-item1">
 						<a href="http://augustenglishchile.com/contacto/index.htm"><img src="img/mail-icon-hi-2.png" height="25" style="padding-top: 15px; float: left"/></a>
 						<a style="padding-left: 20px; padding-right: 20px;">+562 2664 7940</a>
@@ -75,7 +97,15 @@
 			</div>
 			<div id="head">
 
-				<div id="cta">
+				
+				<div class="slide">
+					<ul class="rslides">  
+						<li><img src="/img/sl1.jpg" width="1024" height="80" /><div id="header"> Entretenidas Clases De Ingles A Tu Medida</div></li>
+						<li><img src="/img/sl2.jpg" width="1024" height="80" /><div id="header"> $2.500 La Clase De Ingles</div></li>
+						<li><img src="/img/sl3.jpg" width="1024" height="80" /><div id="header"> La Forma MAS EconOmica De Aprender Ingles.</div></li>
+						<li><img src="/img/sl4.jpg" width="1024" height="80" /><div id="header"> La Forma MAS EconOmica De Aprender Ingles.</div></li>
+					</ul>
+					<div id="cta">
 				<br>
 				         	<div id="freebie-title"><span>¿Cual es tu nivel de Ingles?</span></div><br />
 							<div id="freebie-title2">Ingresa tu email y Descubrelo gratis ahora.</div>
@@ -91,18 +121,10 @@
 							</div>
 						<br>
 						<div align="center"> <button class="button" name="sender" id="sender" onclick="validate1();">Hazlo ya!</button></div>
-				</div>
-				<div class="slide">
-					<ul class="rslides">  
-						<li><img src="/img/sl1.jpg" width="1024" height="80" /><div id="header"> Entretenidas Clases De Ingles A Tu Medida</div></li>
-						<li><img src="/img/sl2.jpg" width="1024" height="80" /><div id="header"> $2.500 La Clase De Ingles</div></li>
-						<li><img src="/img/sl1.jpg" width="1024" height="80" /><div id="header"> La Forma MAS EconOmica De Aprender Ingles.</div></li>
-					</ul>	
+			</div>	
 				</div>
 					
-			</div>
-				
-			
+			</div>			
 		
 			<div id="features">
 			<div class="in-features">
@@ -139,19 +161,19 @@
 				<div class="clients-container">
 					
 					<div class="client-item">
-						<img src="img/client1.jpg" class="icon-cl"/>
+						<img src="img/client1.jpg" class="icon-cl" id="client1" onMouseOver="MM_swapImage('client1','','img/h-client1.png',1)" onMouseOut="MM_swapImgRestore()"/>
 					</div>
 					<div class="client-item">
-						<img src="img/client2.png" class="icon-cl"/>
+						<img src="img/client2.png" class="icon-cl" id="client2" onMouseOver="MM_swapImage('client2','','img/h-client2.png',1)" onMouseOut="MM_swapImgRestore()"/>
 					</div>
 					<div class="client-item">
-						<img src="img/client3.jpg" class="icon-cl"/>
+						<img src="img/client3.jpg" class="icon-cl" id="client3" onMouseOver="MM_swapImage('client3','','img/h-client3.png',1)" onMouseOut="MM_swapImgRestore()"/>
 					</div>
 					<div class="client-item">
-						<img src="img/client4.jpg" class="icon-cl"/>
+						<img src="img/client4.jpg" class="icon-cl" id="client4" onMouseOver="MM_swapImage('client4','','img/h-client4.png',1)" onMouseOut="MM_swapImgRestore()"/>
 					</div>
 					<div id="client-item">
-						<img src="img/client5.png" class="icon-cl"/>
+						<img src="img/client5.jpg" class="icon-cl" id="client5" onMouseOver="MM_swapImage('client5','','img/h-client5.png',1)" onMouseOut="MM_swapImgRestore()"/>
 					</div>
 				</div>
 				
@@ -234,29 +256,24 @@
 				<article class="column" style="margin-left: 30">      
 					<ul>
 						<h2><a href=" /la/conectarse/">Conectarse</a></h2>
-					
+					</ul>
 						<table>
 						<tr>
-							<td><img src="img/so-icons/fb.png" width="30" style="float: left;"/><a href="http://www.facebook.com/openenglish" class="social-labels">Facebook</a></td>
-							
-							
+							<td><img src="img/so-icons/fb.png" width="30" style="float: left;"/><a href="http://www.facebook.com/openenglish" class="social-labels">Facebook</a></td>	
 						</tr>
 						<tr>
-							
 							<td><img src="img/so-icons/tw.png" width="30" style="float: left;"/> <a href="http://twitter.com/openenglish" class="social-labels">LinkedIn</a></td>
+						</tr>
+						<tr>
+							<td><img src="img/so-icons/yt.png" width="30" style="float: left;"/><a href="http://www.youtube.com/openenglishtv" class="social-labels">Youtube</a></td>
 							
 						</tr>
 						<tr>
-							
-							<td><img src="img/so-icons/yt.png" width="30" style="float: left;"/><a href="http://www.youtube.com/openenglishtv" class="social-labels">Youtube</a></td>
-						</ul>	
-						</tr>
-					</table>
-					<tr>
-							
 							<td><img src="img/so-icons/goo.png" width="30" style="float: left;"/><a href="http://www.youtube.com/openenglishtv" class="social-labels">Google+</a></td>
-						</ul>	
-						</tr>
+						</tr>	
+					</table>
+						
+						
 				</article>
 
 				<article class="column">      
@@ -317,6 +334,32 @@
 				
 				</div>
 		</div>
+	<script>
+		$( "#cta2" ).submit(function( event ) {
  
+		  // Stop form from submitting normally
+		  event.preventDefault();
+		 
+		  // Get some values from elements on the page:
+		  var $form = $( this ),
+		    term = $form.find( "input[name='product']" ).val(),
+		    url = $form.attr( "action" );
+		 
+		  // Send the data using post
+		  var posting = $.post( url, { product: term } );
+		 
+		  // Put the results in a div
+		  posting.done(function( data ) {
+		  	
+		  	if (data == "1111") {
+		  		errorResponse()
+		  	} else{
+		  		var resultado = data
+		  		var resArray = resultado.split("|")
+		  		ap(resArray)
+		  	};
+		  });
+		});
+	</script>
 	</body>
 </html>
