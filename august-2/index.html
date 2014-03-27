@@ -191,7 +191,7 @@ function MM_swapImage() { //v3.0
 					<div class="cta2-bottom">
 
 					
-						<form id="cta-form-2" action="http://www.augustenglishchile.com/thankyou" method="post">
+						<form id="cta-form-2" action="/cta2.php" method="post">
 							<table class="table-cta2">
 								<tr>
 									<td>
@@ -342,7 +342,7 @@ function MM_swapImage() { //v3.0
 		 
 		  // Get some values from elements on the page:
 		  var $form = $( this ),
-		    term = $form.find( "input[name='product']" ).val(),
+		    term = $form.find( "input[name='mail-input2']" ).val(),
 		    url = $form.attr( "action" );
 		 
 		  // Send the data using post
@@ -351,13 +351,7 @@ function MM_swapImage() { //v3.0
 		  // Put the results in a div
 		  posting.done(function( data ) {
 		  	
-		  	if (data == "1111") {
-		  		errorResponse()
-		  	} else{
-		  		var resultado = data
-		  		var resArray = resultado.split("|")
-		  		ap(resArray)
-		  	};
+		  	
 		  });
 		});
 	</script>
