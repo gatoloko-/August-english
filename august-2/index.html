@@ -31,10 +31,6 @@ function validate1 () {
 				if ($('#email').val()=="") {
 					alert("Ingresa tu email!");
 					event.preventDefault();
-				}else{
-					alert("Gracias por tu interes!")
-					$("#cta-form-1").submit();
-					
 				}
 			}
 			/*========================================*/
@@ -43,10 +39,6 @@ function validate1 () {
 				if ($('#email2').val()=="") {
 					alert("Ingresa tu email!");
 					event.preventDefault();
-				}else{
-					alert("Gracias por tu interes!");
-					$("#cta-form-2").submit();
-					
 				}
 			}
 function MM_preloadImages() { //v3.0
@@ -112,15 +104,40 @@ function MM_swapImage() { //v3.0
 							<br>
 							<br>
 				
-								<div align="center">
-									<form id="cta-form-1" action="http://www.augustenglishchile.com/thankyou" method="post">
-			        					 <input class="mail-input" type='text' name='email' id="email" placeholder="Ingresa tu email"/>
-			        					 <input type="hidden" name="source" value="augustenglishchile.com"/>
-			        					 <input type="hidden" name="redirect_to" value="augustenglishchile.com/testyourenglish.pdf"/>
-	          						</form>
+							<div align="center">
+									<form id="cta-form-1" action="cta1.php" method="post">
+			        				<input class="mail-input" type='text' name='email' id="email" placeholder="Ingresa tu email"/>
+		
 							</div>
 						<br>
 						<div align="center"> <button class="button" name="sender" id="sender" onclick="validate1();">Hazlo ya!</button></div>
+						</form>
+						
+						<script>
+								// Attach a submit handler to the form
+								$( "#cta-form-1" ).submit(function( event ) {
+								 
+								  // Stop form from submitting normally
+								  event.preventDefault();
+								  alert("Seras redirigido hacia la prueba!");
+								 
+								  // Get some values from elements on the page:
+								  var $form = $( this ),
+								    term = $form.find( "input[name='email']" ).val(),
+								    url = $form.attr( "action" );
+								 
+								  // Send the data using post
+								  var posting = $.post( url, { mail: term } );
+								 
+								  // Put the results in a div
+								  posting.done(function( data ) {
+								  	$("#cta").fadeOut();
+								  	var urlTest = "test_.html"
+								  	window.open(urlTest, '_newtab'); 
+								  });
+								});
+						</script>
+						
 			</div>	
 				</div>
 					
@@ -191,7 +208,7 @@ function MM_swapImage() { //v3.0
 					<div class="cta2-bottom">
 
 					
-						<form id="cta-form-2" action="/cta2.php" method="post">
+						<form id="cta-form-2" action="cta2.php" method="post">
 							<table class="table-cta2">
 								<tr>
 									<td>
@@ -207,11 +224,35 @@ function MM_swapImage() { //v3.0
 										<button class="button" name="sender" id="sender" onclick="validate2();">Descargalo Ya!</button>
 									</td>
 								</tr>
-							</table>
-	    					
-	    					
-	    					
+							</table>	
 						</form>
+						
+						<!--send -->
+	          						
+  						<script>
+								// Attach a submit handler to the form
+								$( "#cta-form-2" ).submit(function( event ) {
+								 
+								  // Stop form from submitting normally
+								  event.preventDefault();
+								  alert("La guia ha sido enviada al correo que ingresaste. Gracias por tu interes.");
+								 
+								  // Get some values from elements on the page:
+								  var $form2 = $( this ),
+								    term2 = $form2.find( "input[name='email2']" ).val(),
+								    url2 = $form2.attr( "action" );
+								 
+								  // Send the data using post
+								  var posting2 = $.post( url2, { mail: term2 } );
+								 
+								  // Put the results in a div
+								  posting2.done(function( data ) {
+								  	$("#cta2").fadeOut(); 
+								  });
+								});
+						</script>
+  						
+  						<!--send -->
 					
 					</div>
 				</div>
@@ -334,26 +375,5 @@ function MM_swapImage() { //v3.0
 				
 				</div>
 		</div>
-	<script>
-		$( "#cta2" ).submit(function( event ) {
- 
-		  // Stop form from submitting normally
-		  event.preventDefault();
-		 
-		  // Get some values from elements on the page:
-		  var $form = $( this ),
-		    term = $form.find( "input[name='mail-input2']" ).val(),
-		    url = $form.attr( "action" );
-		 
-		  // Send the data using post
-		  var posting = $.post( url, { product: term } );
-		 
-		  // Put the results in a div
-		  posting.done(function( data ) {
-		  	
-		  	
-		  });
-		});
-	</script>
 	</body>
 </html>
