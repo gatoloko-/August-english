@@ -61,8 +61,8 @@ h2{
 .menu-item{
 	border-right:1px solid #006699;
 	line-height: 60px;
-	padding-left: 18px;
-	padding-right: 18px;	
+	padding-left: 17px;
+	padding-right: 17px;	
 	float: left;
 	font-family: 'salt__foamregular';
 	color: #FFF;
@@ -99,7 +99,7 @@ h2{
 }
 .slide{
 	width: 1024px;
-	position: relative;
+	/*position: relative;*/
 	/*top: -180px;*/
 	margin-left: auto;
 	margin-right: auto;
@@ -111,7 +111,7 @@ h2{
 	border-radius: 5px;
 	position: relative;
 	top: -550px;
-	left: 410px;
+	left: 470px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	-webkit-box-shadow: 2px 2px 8px 1px #000;
 	box-shadow: 2px 2px 8px 1px #000;
