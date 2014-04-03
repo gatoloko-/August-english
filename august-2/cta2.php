@@ -221,7 +221,8 @@ ul li, ol li {
 				<tr>
 					<td>
 						<p>Hola!</p>
-						<p>Muchas gracias por tu inter&eacute;s. La gu&iacute;a que acabas de descargar te ayudar&aacute; a mejorar tu nivel. Es posible que nos contactemos contigo para contarte m&aacute;s acerca de AUGUST ENGLISH.</p>
+						<p>Muchas gracias por tu inter&eacute;s. Ojal&aacute; que encuentres esta gu&iacute;a muy &uacute;til en tu camino para aprender ingl&eacute;s. Te contactaremos pronto para contarte más acerca de nuestras clases en AUGUST ENGLISH.
+Nos puedes env&iacute;ar un correo a contacto@augustenglishchile.com o llamarnos a +562 2664 7940..</p>
 						<h1>AUGUST ENGLISH</h1>
 						<p>Aprender ingl&eacute;s es uno de los primeros pasos para reinventarte personal y profesionalmente. 
 							Deseamos ayudarte a renacer en tu vida, ofreci&eacute;ndote clases accesibles y flexibles que puedan 
